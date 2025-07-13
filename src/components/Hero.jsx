@@ -31,9 +31,8 @@ export const Hero = () =>{
 
             <div className="hero-container">
                 <motion.div className="hero-content" variants={staggerContainer} initial="initial" animate="animate">
-                    <motion.div className="hero-badge"></motion.div>
-                    <motion.div>
-                        <span>👋Hello, I'm</span>
+                    <motion.div className="hero-badge">
+                        <span> 👋 Hello, I'm </span>
                     </motion.div>
                       <motion.h1 
                        className="glitch"
@@ -47,7 +46,7 @@ export const Hero = () =>{
                             Creative Developer & Designer
                         </motion.h2>
 
-                        <motion.p className="hero-description italic">
+                        <motion.p className="hero-description" variants={fadeInUp}>
   I craft beautiful digital experiences that combine stunning design with powerful functionality, specializing in interactive user interfaces.
                         </motion.p>
 
@@ -64,7 +63,7 @@ export const Hero = () =>{
                             </motion.a>
                         
                              <motion.a 
-                                  href="#contacts" 
+                                  href="#contact" 
                                   className="cta-secondary"
                                   whileHover={{scale:1.05}}
                                   whileTap={{scale:0.95}}>
