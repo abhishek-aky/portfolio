@@ -146,7 +146,7 @@ export const Hero = () =>{
                     transition={{duration:4, repeat:Infinity, ease:"easeInOut"}}>
                         <div className="card-content">
                             <span className="card-icon">💻</span>
-                            <span className="card-text">Currently working as TA in Coding Blocks</span>
+                            <span className="card-text">“Empowering Learners @ W3Elites”</span>
                         </div>
                     </motion.div>
 
